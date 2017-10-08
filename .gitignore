@@ -142,3 +142,7 @@ jspm_packages
 client/dist/*
 !client/dist/.gitkeep
 .xml
+
+# Intellj IDEA
+.idea
+*.iml
