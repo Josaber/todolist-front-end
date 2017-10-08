@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.static('client/dist'));
 
-app.get('/api', (req, res)=> {
+app.get('/', (req, res)=> {
   res.send("TODO...");
 });
 

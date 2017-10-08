@@ -19,7 +19,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    request.get('/api/todoitems')
+    request.get('/todoitems')
       .end((err, res) => {
         if (err) {
           return;
