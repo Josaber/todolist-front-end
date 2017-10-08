@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.static('client/dist'));
 
-app.get('/', (req, res)=> {
+app.get('http://localhost/', (req, res)=> {
   res.send("TODO...");
 });
 
