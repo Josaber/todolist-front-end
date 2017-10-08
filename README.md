@@ -4,7 +4,7 @@
 ## 运行方式
 1. 在命令行中运行 
    ```
-   npm install webpack -g
+   sudo npm install webpack -g
    npm install
    npm run webpack
    npm start
